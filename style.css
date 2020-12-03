@@ -15,7 +15,7 @@ body{
     color: #353B48;
 }
 
-header#header {
+#header {
     margin: 0 5%;
     padding: 0 3%;
     margin: 1.2rem;
@@ -30,7 +30,7 @@ nav {
     
 }
 
-a#logo {
+#logo {
     margin-right: 5%;
     text-decoration: none;
     color: inherit;
@@ -41,7 +41,7 @@ strong {
     color: #E1B12C;
 }
 
-section.hero {
+.hero {
     margin: 0 5%;
     padding: 0 3%;
     display: flex;
@@ -83,7 +83,7 @@ hr {
     border-bottom: 2px solid;
 }
 
-button.button-cta {
+.button-cta {
     position: relative;
     top: 50%;
     left: 50%;
@@ -96,8 +96,8 @@ button.button-cta {
     border-radius: 0.6rem;
 }
 
-button.button-cta:hover,
-button.button-cta:active {
+.button-cta:hover,
+.button-cta:active {
     background-color: #e1942c;
     transition: 200ms ease-in;
     box-shadow: 3px 3px rgba(255, 255, 255, 0.6);
@@ -180,7 +180,6 @@ div.menu-body ul li a:active {
     transition: 150ms ease-in;
 }
 
-nav
 /* animacija prozora menija */
 
 @-webkit-keyframes animation {
